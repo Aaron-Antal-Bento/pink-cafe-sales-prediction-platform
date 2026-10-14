@@ -3,7 +3,7 @@
 
 Developed by a five-person team at the University of the West of England (UWE Bristol) for the *Systems Development Group Project* module, 2025–2026.
 
-Bristol-Pink is a five-location bakery café chain serving food and coffees. The platform analyses historical sales of selected products and uses Meta's Prophet time-series model to forecast demand, helping café managers make informed daily purchasing decisions, reduce food waste and minimise losses. It provides interactive sales visualisations, configurable forecasting options and model evaluation metrics, with forecasts generated for individual or combined products.
+Bristol-Pink is a five-location bakery café chain serving food and coffees. This prediction platform analyses historical sales of selected products and uses Meta's Prophet time-series model to forecast demand, helping café managers make informed daily purchasing decisions, reduce food waste and minimise losses. It provides interactive sales visualisations, configurable forecasting options and model evaluation metrics, with forecasts generated for individual or combined products.
 
 ---
 
