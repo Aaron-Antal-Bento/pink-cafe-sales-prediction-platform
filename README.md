@@ -44,9 +44,9 @@ The following short GIFs demonstrate the web application's key features, showcas
 <p align="center" ><em>Demonstrates the login process, navigation between pages, and responsive design on different screen sizes.</em></p>
 </p>
 
-### Figma Prototype Designs
-![Dashboard and forecasting interface Designs](documentation/FigmaDesigns.png)
-*Application interface designs created in Figma before frontend implementation.*
+### Class Diagram
+![Class Diagram](documentation/SDGP_Class_Diagram.png)
+*Backend and database class diagram showing the relationships between the main application classes.*
 
 ---
 
@@ -56,11 +56,13 @@ The application uses a containerised development setup with a React frontend and
 
 ```mermaid
 flowchart TB
-    U[User] <--> FE[React + Tailwind CSS]
-    FE <--> API[Flask REST API]
-    API <--> DB[(SQLite Database)]
-    API <--> ML[Prophet Forecasting Engine]
-    ML --> DATA[Pandas + NumPy]
+    U[User] --> FE[React Frontend<br/>Tailwind CSS + Recharts]
+    FE --> UP[CSV Uploads<br/>Sales data ingestion]
+    FE --> API[Flask Backend<br/>REST API + Auth + Data Routes]
+    UP --> API
+    API --> DB[(SQLite Database)]
+    API --> FC[Forecasting Module<br/>Prophet + SARIMA + Linear Regression]
+    FC --> PKG[Pandas + NumPy<br/>statsmodels + scikit-learn]
 ```
 
 ### Technology Stack
