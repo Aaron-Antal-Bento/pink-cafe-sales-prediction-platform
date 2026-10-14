@@ -25,6 +25,7 @@ The following short GIFs demonstrate the web application's key features, showcas
 
 ### Dashboard
 ![Dashboard and forecasting interface](documentation/videos/Dashboard.gif)
+> <img src="./documentation/videos/Dashboard.gif" alt="training demo gif" width="450px">
 
 ### CSV Uploads Page
 ![Uploads Page](documentation/videos/UploadPage.gif)
