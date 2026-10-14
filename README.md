@@ -25,20 +25,24 @@ The following short GIFs demonstrate the web application's key features, showcas
 
 ### Dashboard
 ![Dashboard and forecasting interface](documentation/videos/Dashboard.gif)
-> <img src="./documentation/videos/Dashboard.gif" alt="training demo gif" width="450px">
+*Displays sales predictions with selectable forecast periods of 7 days, 4 weeks, 8 weeks or a custom range, alongside a table view of forecast results.*
 
 ### CSV Uploads Page
 ![Uploads Page](documentation/videos/UploadPage.gif)
+*Allows users to upload sales data in CSV format, which is then parsed and ingested into the database for analysis and forecasting.*
 
 ### Settings Page
 ![Settings Page](documentation/videos/SettingsPage.gif)
+*Enables users to manage Prophet presets, including creating, copying, editing and deleting configurations for reusable forecasting parameters.*
 
 ### Login, Navigation and Responsive Design
 <p align="center">
+<div>
   <img src="./documentation/videos/LoginPage.gif" alt="Login Page" width="49%" />
   <img src="./documentation/videos/NavBar.gif" alt="Navigation Bar and Resposive Design" width="49%" />
+</div>
+<p align="center" ><em>Demonstrates the login process, navigation between pages, and responsive design on different screen sizes.</em></p>
 </p>
-
 
 ### Figma Prototype Designs
 ![Dashboard and forecasting interface Designs](documentation/FigmaDesigns.png)
