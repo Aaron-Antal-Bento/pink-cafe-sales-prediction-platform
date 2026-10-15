@@ -154,7 +154,7 @@ Additional project artefacts and technical documentation:
 
 | Resource | Description |
 |---|---|
-| [Systems Development Group Report](documentation/SystemsDevelopmentGroupReport.pdf) | Full project report with requirements, design, implementation and testing |
+| [Systems Development Group Report](documentation/Systems%20Development%20Group%20Report.pdf) | Full project report with requirements, design, implementation and testing |
 | [Figma Designs](documentation/FigmaDesigns.png) | Application interface designs |
 | [Use Case Diagram](documentation/UseCaseDiagram.png) | Actors and system interactions |
 | [Backend Class Diagram](documentation/ClassDiagram1.png) | Application classes and relationships |
