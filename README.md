@@ -98,8 +98,8 @@ The backend accepts training windows from four to 52 weeks. The dashboard curren
 Clone the repository and start the application:
 
 ```bash
-git clone https://github.com/shamykyzer/sales-prediction-platform.git
-cd sales-prediction-platform
+git clone https://github.com/Aaron-Antal-Bento/pink-cafe-sales-prediction-platform.git
+cd pink-cafe-sales-prediction-platform
 docker compose up --build
 ```
 
